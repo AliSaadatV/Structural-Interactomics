@@ -1,0 +1,102 @@
+Feature,Selected,Description
+aa0 to aa19,1,Representation of the 20 standard amino acids.
+pka_cooh_alpha,0,pKa values for the _-carboxyl 
+pka_nh3,0,pKa value of the _-amino
+pka_rgroup,0,pKa value of the side chain
+isoelectric_points,1,Isoelectric points of residues.
+molecularweight,0,molecular weight
+numbercodons,1,Number of codons coding for each amino acid.
+bulkiness,1,Bulkiness of amino acid side chains.
+polarityzimmerman,0,polarity scores based on zimmerman
+polaritygrantham,0,polarity scores based on grantham
+refractivity,0,Amino acid refractivity
+recognitionfactors,0,Recognition factor based on Expasy
+hphob_eisenberg,0,Hydrophobicity 
+hphob_sweet,0,Hydrophobicity
+hphob_woods,0,Hydrophobicity
+hphob_doolittle,0,Hydrophobicity
+hphob_manavalan,0,Hydrophobicity
+hphob_leo,0,Hydrophobicity
+hphob_black,0,Hydrophobicity
+hphob_breese,0,Hydrophobicity
+hphob_fauchere,0,Hydrophobicity
+hphob_guy,0,Hydrophobicity
+hphob_janin,0,Hydrophobicity
+hphob_miyazawa,0,Hydrophobicity
+hphob_argos,1,Hydrophobicity score from the Argos scale.
+hphob_roseman,0,Hydrophobicity
+hphob_tanford,0,Hydrophobicity
+hphob_wolfenden,0,Hydrophobicity
+hphob_welling,1,Hydrophobicity score from the Welling scale.
+hphob_wilson,0,Hydrophobicity
+hphob_parker,0,Hydrophobicity
+hphob_ph3_4,0,Hydrophobicity
+hphob_ph7_5,0,Hydrophobicity
+hphob_mobility,0,Hydrophobicity
+hplchfba,0,Hydrophilicity
+hplctfa,0,Hydrophilicity
+transmembranetendency,0,transmembrane tendency
+hplc2_1,0,retention coefficient
+hplc7_4,0,retention coefficient
+buriedresidues,1,Residues buried within the protein structure.
+accessibleresidues,1,Solvent-accessible residues in the protein.
+hphob_chothia,0,Hydrophobicity
+hphob_rose,0,Hydrophobicity
+ratioside,1,"Ratio of side chain types (e.g., polar vs. nonpolar)."
+averageburied,1,Average number of buried residues in the protein.
+averageflexibility,1,Average flexibility of residues.
+alpha_helixfasman,1,Helix propensity based on the Fasman algorithm.
+beta_sheetfasman,0,Conformational parameter for beta-sheet
+beta_turnfasman,1,Beta turn propensity based on the Fasman algorithm.
+alpha_helixroux,0,Conformational parameter for alpha helix
+beta_sheetroux,0,Conformational parameter for beta-sheet
+beta_turnroux,0,Conformational parameter for beta-turn
+coilroux,0,Conformational parameter for coil
+alpha_helixlevitt,0,Normalized frequency for alpha helix
+beta_sheetlevitt,0,Normalized frequency for beta sheet
+beta_turnlevitt,0,Normalized frequency for  beta turn
+totalbeta_strand,0,Conformational preference for total beta strand (antiparallel+parallel)
+antiparallelbeta_strand,1,Conformational preference for antiparallel beta strand.
+parallelbeta_strand,0,Conformational preference for parallel beta strand.
+a_a_composition,1,Amino acid composition.
+a_a_swiss_prot,0,Amino acid composition (%) in the UniProtKB/Swiss-Prot data bank.
+relativemutability,1,Likelihood of amino acid mutation over evolutionary time.
+hbond_acc,1,Hydrogen bond acceptor residues.
+hbond_donor,1,Hydrogen bond donor residues.
+meiler0 to meiler6,0,meiler embeddings
+sidechain_vector0 to sidechain_vector2,0,average position of sidechain atoms.
+c_beta_vector0 to c_beta_vector3,1,Geometric arrangement of side chains (C-beta vectors).
+sequence_neighbour_vector_n_to_c0 to sequence_neighbour_vector_n_to_c2,1,Sequence neighbors from N- to C-terminus.
+ASAquick_normscore,1,Normalized accessible surface area score.
+DFLpredScore,1,Prediction of disordered flexible linkers.
+DRNApredDNAscore,1,Prediction of DNA-binding residues.
+DRNApredRNAscore,1,Prediction of RNA-binding residues.
+DisoDNAscore,1,Propensity for disordered regions to bind DNA.
+DisoPROscore,1,Propensity for disordered regions to bind proteins.
+DisoRNAscore,1,Propensity for disordered regions to bind RNA.
+MMseq2_conservation_score,1,Conservation score based on MMseq2.
+MoRFchibiScore,1,Prediction of molecular recognition features (MoRFs).
+PSIPRED_helix,1,Prediction of helical secondary structures.
+PSIPRED_strand,1,Prediction of beta-strand secondary structures.
+SCRIBERscore,1,Prediction of protein-binding residues.
+flDPnn_score,1,Prediction of disorder regions from flDPnn.
+PTMbinary,0,Residue is a PTM or not
+ACT_SITE,1,Active sites in the protein.
+BINDING,1,"Binding sites for ligands, substrates, or other molecules."
+DNA_BIND,1,DNA-binding regions.
+TOPO_DOM,1,Topological domains of the protein.
+TRANSMEM,1,Transmembrane regions in the protein structure.
+DISULFID,1,Disulfide bonds stabilizing the protein structure.
+PROPEP,1,Propeptide regions that are cleaved during maturation.
+SIGNAL,1,Signal peptides for protein targeting.
+TRANSIT,1,Transit peptides for directing proteins to organelles.
+STRAND,1,Beta strand regions in the protein structure.
+HELIX,1,Alpha helix regions in the protein structure.
+COILED,1,Coiled-coil regions of the protein.
+COMPBIAS,1,Regions with compositional bias.
+DOMAIN,1,Functional/structural domains of the protein.
+REGION,1,General regions in the protein.
+REPEAT,1,Repetitive sequences in the protein.
+ZN_FING,1,Zinc finger domains involved in binding.
+phyloP100way_vertebrate,0,Conservation score 
+phyloP30way_mammalian,0,Conservation score
